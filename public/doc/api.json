@@ -1,0 +1,137 @@
+{
+    proxy: [{
+        _id: "5106a36a1593881126000002",
+        email: "cyberuls@gmail.com",
+        title: "하이 그랬어요. ",
+        ref: "",
+        list: [{
+            _id: "5106a49e159388ba3c000003",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: "www.naver.com",
+            after: "www.daum.net",
+            description: "네이버로 다음만들기 "
+        }, {
+            _id: "510767f4159388d451000000",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: "www.naver.com",
+            after: "www.daum.net",
+            description: "다음을 네이버로 바꾸자. "
+        }, {
+            _id: "510768401593886b4f000000",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: " www.test.com",
+            after: "www.test2.com/test",
+            description: "그랬어요. 정말로?"
+        }, {
+            _id: "510769f9159388f451000000",
+            email: "cyberuls@gmail.com",
+            type: "DOM",
+            before: "www.wemakeprice.com",
+            after: "www.ticketmonster.co.kr",
+            description: "다 바꿔"
+        }]
+    }, {
+        _id: "51076bac1593888e4d000000",
+        email: "cyberuls@gmail.com",
+        title: "이건 피싱 사이트 목록",
+        ref: "",
+        list: [{
+            _id: "51076cf3159388a84d000000",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: "www.nh.ac.kr",
+            after: "www.nh.co.kr",
+            description: "농협"
+        }]
+    }, {
+        _id: "51080681159388235e000000",
+        email: "cyberuls@gmail.com",
+        title: "fjdsklajfklds",
+        type: "global",
+        ref: "",
+        list: [{
+            _id: "51093cd41593885a79000000",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: "www.naver.com",
+            after: "www.daum.net",
+            description: "네이버에서 다음으로 바뀜 하지만 유저는 모름 "
+        }, {
+            _id: "51093dd9159388f001000000",
+            email: "cyberuls@gmail.com",
+            type: "DOM",
+            before: "www.naver.com",
+            after: "www.daum.net",
+            description: "이건 바뀌지만 www.naver.com host 는 유지함"
+        }, {
+            _id: "510a8478159388691e000000",
+            email: "cyberuls@gmail.com",
+            type: null,
+            before: "www.kisa.com",
+            after: "www.phishing.com",
+            description: "으하하하 여긴 피싱 사이트 "
+        }, {
+            _id: "510a854f159388711e000000",
+            email: "cyberuls@gmail.com",
+            type: "URL",
+            before: "fdsafd",
+            after: "safdsaf",
+            description: "fdsafdsf"
+        }]
+    }, {
+        _id: "51080d99159388295e000000",
+        email: "cyberuls@gmail.com",
+        title: "안녕",
+        type: "private",
+        ref: "",
+        list: []
+    }, {
+        _id: "51080e2d1593883360000000",
+        email: "cyberuls@gmail.com",
+        title: "메롱",
+        type: "public",
+        ref: "",
+        list: []
+    }],
+    bookmark: [{
+        _id: "510bec42159388f163000000",
+        email: "cyberuls@gmail.com",
+        title: null,
+        values: [
+            "51080e2d1593883360000000",
+            "51080d99159388295e000000"]
+    }, {
+        _id: "510bec5d159388f70e000001",
+        email: "cyberuls@gmail.com",
+        title: null,
+        values: [
+            "51080e2d1593883360000000",
+            "51080d99159388295e000000"]
+    }, {
+        _id: "510becbb1593889963000000",
+        email: "cyberuls@gmail.com",
+        title: null,
+        values: [
+            "51080e2d1593883360000000",
+            "51080d99159388295e000000"]
+    }, {
+        _id: "510bed691593889f63000000",
+        email: "cyberuls@gmail.com",
+        title: " 이렇게 3개? ",
+        values: [
+            "51080e2d1593883360000000",
+            "51080d99159388295e000000",
+            "51080681159388235e000000"]
+    }, {
+        _id: "510bedcb159388ec63000000",
+        email: "cyberuls@gmail.com",
+        title: "다른거 3개로",
+        values: [
+            "51080681159388235e000000",
+            "51076bac1593888e4d000000",
+            "5106a36a1593881126000002"]
+    }]
+}

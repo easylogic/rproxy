@@ -1,16 +1,15 @@
 rproxy
 ======
 
-Reverse Proxy List Manager For Developers
+Reverse Proxy Manager For Developers
 
 ## 개요 
 
 각자가 원하는 호스트를 관리할 수 있는 사이트이다. 
 
-## 기능 
+## TODO List
 
-1. 로그인 (twitter, facebook, 자체 로그인) 
-2. 회원가입 ( 아이디, 비밀번호) 
+1. 로그인 (twitter, facebook, tumblr, g+) 
 2. 유저별 호스트 관리 
 3. 유저별 호스트 공유 
 4. 글로벌 호스트 공유 
@@ -26,8 +25,10 @@ Reverse Proxy List Manager For Developers
 ``` www.test.com => www.test.com/testdir  ```
 2. 도메인 => 도메인 (최초 접속 도메인 유지) 
 ``` www.test.com => www.test2.com ``` 
-3. 정규식 (최초 접속 도메인 유지) 
+3. 패턴 비교 
 ``` www\.(test|test2|test3)\.com => www.dev.com/$1 ```
+
+* 도메인 유지 옵션이 필요함 
 
 ## 우선순위 
 
